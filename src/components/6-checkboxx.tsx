@@ -12,7 +12,7 @@ import React, { useState } from "react";
 function Checkboxx() {
   const [accept, setAcccept] = useState<boolean>(false);
   const [skills, setSkills] = useState<string[]>([]);
-  console.log(skills)
+  console.log(skills);
 
   const handleAccept = () => {
     setAcccept(!accept);
@@ -30,7 +30,6 @@ function Checkboxx() {
     } else {
       setSkills(skills.concat(e.target.value));
     }
-
   };
 
   return (
