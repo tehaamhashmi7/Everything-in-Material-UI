@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MuiTypography from './components/MuiTypography';
-import { Button, Switch } from '@mui/material';
 import Buttons from './components/2-Buttons';
 import Textfield from './components/3-textfield';
 import SelectComponent from './components/4-SelectComponent';
@@ -15,6 +14,7 @@ import BoxComponent from './components/10-BoxComponent';
 import StackComponent from './components/11-StackComponent';
 import GridComponent from './components/12-GridComponent';
 import CardComponent from './components/13-CardComponent';
+import AccordionComponent from './components/14-AccordionComponent';
 
 function App() {
   return (
@@ -31,7 +31,8 @@ function App() {
       {/* <BoxComponent /> */}
       {/* <StackComponent /> */}
       {/* <GridComponent /> */}
-      <CardComponent />
+      {/* <CardComponent /> */}
+      <AccordionComponent />
     </div> 
   );
 }
