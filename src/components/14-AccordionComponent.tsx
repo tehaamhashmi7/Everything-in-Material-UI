@@ -15,7 +15,7 @@ function AccordionComponent() {
   return (
     <Box>
       <Typography variant="h4">Accordion</Typography>
-      <Accordion>
+      <Accordion expanded={expanded === 'panel1'}>
         <AccordionSummary
           id="panel1-header"
           aria-controls="panel1-content"
@@ -32,7 +32,7 @@ function AccordionComponent() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion expanded={expanded === 'panel1'}>
         <AccordionSummary
           id="panel2-header"
           aria-controls="panel2-content"
@@ -49,7 +49,7 @@ function AccordionComponent() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion expanded={expanded === 'panel1'}>
         <AccordionSummary
           id="panel3-header"
           aria-controls="panel3-content"

@@ -15,6 +15,7 @@ import StackComponent from './components/11-StackComponent';
 import GridComponent from './components/12-GridComponent';
 import CardComponent from './components/13-CardComponent';
 import AccordionComponent from './components/14-AccordionComponent';
+import Imglist from './components/15-imglist';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <StackComponent /> */}
       {/* <GridComponent /> */}
       {/* <CardComponent /> */}
-      <AccordionComponent />
+      {/* <AccordionComponent /> */}
+      <Imglist />
     </div> 
   );
 }
