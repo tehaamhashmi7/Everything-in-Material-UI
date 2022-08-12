@@ -14,6 +14,7 @@ import Autocompleted from './components/9-Autocomplete';
 import BoxComponent from './components/10-BoxComponent';
 import StackComponent from './components/11-StackComponent';
 import GridComponent from './components/12-GridComponent';
+import CardComponent from './components/13-CardComponent';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Autocompleted /> */}
       {/* <BoxComponent /> */}
       {/* <StackComponent /> */}
-      <GridComponent />
+      {/* <GridComponent /> */}
+      <CardComponent />
     </div> 
   );
 }
