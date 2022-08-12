@@ -12,6 +12,7 @@ import Switches from './components/7-Switches';
 import Ratings from './components/8-Ratings';
 import Autocompleted from './components/9-Autocomplete';
 import BoxComponent from './components/10-BoxComponent';
+import StackComponent from './components/11-StackComponent';
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
       {/* <Switches /> */}
       {/* <Ratings /> */}
       {/* <Autocompleted /> */}
-      <BoxComponent />
-    </div>
+      {/* <BoxComponent /> */}
+      <StackComponent />
+    </div> 
   );
 }
 
