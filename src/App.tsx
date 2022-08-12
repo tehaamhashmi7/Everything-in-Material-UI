@@ -13,6 +13,7 @@ import Ratings from './components/8-Ratings';
 import Autocompleted from './components/9-Autocomplete';
 import BoxComponent from './components/10-BoxComponent';
 import StackComponent from './components/11-StackComponent';
+import GridComponent from './components/12-GridComponent';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <Ratings /> */}
       {/* <Autocompleted /> */}
       {/* <BoxComponent /> */}
-      <StackComponent />
+      {/* <StackComponent /> */}
+      <GridComponent />
     </div> 
   );
 }
