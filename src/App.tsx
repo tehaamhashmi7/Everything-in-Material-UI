@@ -10,6 +10,7 @@ import RadioButton from './components/5-RadioButton';
 import Checkboxx from './components/6-checkboxx';
 import Switches from './components/7-Switches';
 import Ratings from './components/8-Ratings';
+import Autocompleted from './components/9-Autocomplete';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <RadioButton /> */}
       {/* <Checkboxx /> */}
       {/* <Switches /> */}
-      <Ratings />
+      {/* <Ratings /> */}
+      <Autocompleted />
     </div>
   );
 }
