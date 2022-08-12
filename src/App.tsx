@@ -16,6 +16,7 @@ import GridComponent from './components/12-GridComponent';
 import CardComponent from './components/13-CardComponent';
 import AccordionComponent from './components/14-AccordionComponent';
 import Imglist from './components/15-imglist';
+import NavbarComp from './components/16-NavbarComp';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <GridComponent /> */}
       {/* <CardComponent /> */}
       {/* <AccordionComponent /> */}
-      <Imglist />
+      {/* <Imglist /> */}
+      <NavbarComp />
     </div> 
   );
 }
