@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import LinksTag from './components/17-LinksTag';
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
 // import Textfield from './components/3-textfield';
@@ -15,7 +16,7 @@ import './App.css';
 // import CardComponent from './components/13-CardComponent';
 // import AccordionComponent from './components/14-AccordionComponent';
 // import Imglist from './components/15-imglist';
-import NavbarComp from './components/16-NavbarComp';
+// import NavbarComp from './components/16-NavbarComp';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <CardComponent /> */}
       {/* <AccordionComponent /> */}
       {/* <Imglist /> */}
-      <NavbarComp />
+      {/* <NavbarComp /> */}
+      <LinksTag />
     </div> 
   );
 }
