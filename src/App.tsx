@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import BadgeComponent from './components/23-BadgeComponent';
+import ListComponent from './components/34-ListComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -24,6 +24,7 @@ import BadgeComponent from './components/23-BadgeComponent';
 // import SpeedDialComponent from './components/20-SpeedDialComponent';
 // import BottomnavigationComponent from './components/21-BottomnavigationComponent';
 // import AvatarComponent from './components/22-AvatarComponent';
+// import BadgeComponent from './components/23-BadgeComponent';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <SpeedDialComponent /> */}
       {/* <BottomnavigationComponent /> */}
       {/* <AvatarComponent /> */}
-      <BadgeComponent />
+      {/* <BadgeComponent /> */}
+      <ListComponent />
     </div> 
   );
 }
