@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import SpeedDialComponent from './components/20-SpeedDialComponent';
+import BottomnavigationComponent from './components/21-BottomnavigationComponent';
+
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
 // import Textfield from './components/3-textfield';
@@ -20,6 +21,7 @@ import SpeedDialComponent from './components/20-SpeedDialComponent';
 // import LinksTag from './components/17-LinksTag';
 // import BreadCrumbComponent from './components/18-BreadCrumbComponent';
 // import DrawerComponent from './components/19-DrawerComponent';
+// import SpeedDialComponent from './components/20-SpeedDialComponent';
 
 function App() {
   return (
@@ -43,7 +45,8 @@ function App() {
       {/* <LinksTag /> */}
       {/* <BreadCrumbComponent /> */}
       {/* <DrawerComponent /> */}
-      <SpeedDialComponent />
+      {/* <SpeedDialComponent /> */}
+      <BottomnavigationComponent />
     </div> 
   );
 }
