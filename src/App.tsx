@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SpeedDialComponent from './components/20-SpeedDialComponent';
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
 // import Textfield from './components/3-textfield';
@@ -18,7 +19,7 @@ import './App.css';
 // import NavbarComp from './components/16-NavbarComp';
 // import LinksTag from './components/17-LinksTag';
 // import BreadCrumbComponent from './components/18-BreadCrumbComponent';
-import DrawerComponent from './components/19-DrawerComponent';
+// import DrawerComponent from './components/19-DrawerComponent';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <NavbarComp /> */}
       {/* <LinksTag /> */}
       {/* <BreadCrumbComponent /> */}
-      <DrawerComponent />
+      {/* <DrawerComponent /> */}
+      <SpeedDialComponent />
     </div> 
   );
 }
