@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import BottomnavigationComponent from './components/21-BottomnavigationComponent';
+import AvatarComponent from './components/22-AvatarComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -22,6 +22,7 @@ import BottomnavigationComponent from './components/21-BottomnavigationComponent
 // import BreadCrumbComponent from './components/18-BreadCrumbComponent';
 // import DrawerComponent from './components/19-DrawerComponent';
 // import SpeedDialComponent from './components/20-SpeedDialComponent';
+// import BottomnavigationComponent from './components/21-BottomnavigationComponent';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <BreadCrumbComponent /> */}
       {/* <DrawerComponent /> */}
       {/* <SpeedDialComponent /> */}
-      <BottomnavigationComponent />
+      {/* <BottomnavigationComponent /> */}
+      <AvatarComponent />
     </div> 
   );
 }
