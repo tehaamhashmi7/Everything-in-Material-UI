@@ -1,6 +1,8 @@
+import { Snackbar } from '@mui/material';
 import React from 'react';
 import './App.css';
 import AlertComponent from './components/29-AlertComponent';
+import SnackBarComponent from './components/30-SnackBarComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -60,7 +62,8 @@ function App() {
       {/* <ChipCompoent /> */}
       {/* <ToolTipCOmpoent /> */}
       {/* <TableComponent /> */}
-      <AlertComponent />
+      {/* <AlertComponent /> */}
+      <SnackBarComponent />
     </div> 
   );
 }
