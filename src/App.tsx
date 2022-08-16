@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TableComponent from './components/28-TableComponent';
+import AlertComponent from './components/29-AlertComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -28,6 +28,7 @@ import TableComponent from './components/28-TableComponent';
 // import ListComponent from './components/24-ListComponent';
 // import ChipCompoent from './components/25-ChipCompoent';
 // import ToolTipCOmpoent from './components/27-ToolTipCOmpoent';
+// import TableComponent from './components/28-TableComponent';
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <ListComponent /> */}
       {/* <ChipCompoent /> */}
       {/* <ToolTipCOmpoent /> */}
-      <TableComponent />
+      {/* <TableComponent /> */}
+      <AlertComponent />
     </div> 
   );
 }
