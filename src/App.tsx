@@ -1,7 +1,7 @@
+import { LoadingButton } from '@mui/lab';
 import { Snackbar } from '@mui/material';
 import React from 'react';
 import './App.css';
-import SkeletonComponent from './components/32-SkeletonComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -33,6 +33,8 @@ import SkeletonComponent from './components/32-SkeletonComponent';
 // import AlertComponent from './components/29-AlertComponent';
 // import SnackBarComponent from './components/30-SnackBarComponent';
 // import ProgressComponent from './components/31-ProgressComponent';
+// import SkeletonComponent from './components/32-SkeletonComponent';
+import LoadingButtonComponent from './components/33-LoadingButton';
 
 function App() {
   return (
@@ -67,7 +69,8 @@ function App() {
       {/* <AlertComponent /> */}
       {/* <SnackBarComponent /> */}
       {/* <ProgressComponent /> */}
-      <SkeletonComponent />
+      {/* <SkeletonComponent /> */}
+      <LoadingButtonComponent />
     </div> 
   );
 }
