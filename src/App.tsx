@@ -4,6 +4,7 @@ import { Snackbar } from '@mui/material';
 import React from 'react';
 import './App.css';
 import MasonryComponet from './components/36-MasonryComponet';
+import Responsiveness from './components/37-Responsiveness';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -77,7 +78,8 @@ function App() {
       {/* <LoadingButtonComponent /> */}
       {/* <TabComponent /> */}
       {/* <TimelineComponent /> */}
-      <MasonryComponet />
+      {/* <MasonryComponet /> */}
+      <Responsiveness />
     </div> 
 
   );
