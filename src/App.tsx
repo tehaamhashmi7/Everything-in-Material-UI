@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import ChipCompoent from './components/25-ChipCompoent';
-
+import TableComponent from './components/28-TableComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -27,6 +26,8 @@ import ChipCompoent from './components/25-ChipCompoent';
 // import AvatarComponent from './components/22-AvatarComponent';
 // import BadgeComponent from './components/23-BadgeComponent';
 // import ListComponent from './components/24-ListComponent';
+// import ChipCompoent from './components/25-ChipCompoent';
+// import ToolTipCOmpoent from './components/27-ToolTipCOmpoent';
 
 function App() {
   return (
@@ -55,7 +56,9 @@ function App() {
       {/* <AvatarComponent /> */}
       {/* <BadgeComponent /> */}
       {/* <ListComponent /> */}
-      <ChipCompoent />
+      {/* <ChipCompoent /> */}
+      {/* <ToolTipCOmpoent /> */}
+      <TableComponent />
     </div> 
   );
 }
