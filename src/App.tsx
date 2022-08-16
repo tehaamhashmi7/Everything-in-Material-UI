@@ -3,7 +3,7 @@ import AdapterDateFns from '@mui/lab/AdapterDateFns'
 import { Snackbar } from '@mui/material';
 import React from 'react';
 import './App.css';
-import TimelineComponent from './components/35-TimelineComponent';
+import MasonryComponet from './components/36-MasonryComponet';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -38,6 +38,7 @@ import TimelineComponent from './components/35-TimelineComponent';
 // import SkeletonComponent from './components/32-SkeletonComponent';
 // import LoadingButtonComponent from './components/33-LoadingButton';
 // import TabComponent from './components/34-TabComponen';
+// import TimelineComponent from './components/35-TimelineComponent';
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
       {/* <SkeletonComponent /> */}
       {/* <LoadingButtonComponent /> */}
       {/* <TabComponent /> */}
-      <TimelineComponent />
+      {/* <TimelineComponent /> */}
+      <MasonryComponet />
     </div> 
 
   );
