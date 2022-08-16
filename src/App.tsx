@@ -1,8 +1,7 @@
 import { Snackbar } from '@mui/material';
 import React from 'react';
 import './App.css';
-import AlertComponent from './components/29-AlertComponent';
-import SnackBarComponent from './components/30-SnackBarComponent';
+import ProgressComponent from './components/31-ProgressComponent';
 
 // import MuiTypography from './components/MuiTypography';
 // import Buttons from './components/2-Buttons';
@@ -31,6 +30,8 @@ import SnackBarComponent from './components/30-SnackBarComponent';
 // import ChipCompoent from './components/25-ChipCompoent';
 // import ToolTipCOmpoent from './components/27-ToolTipCOmpoent';
 // import TableComponent from './components/28-TableComponent';
+// import AlertComponent from './components/29-AlertComponent';
+// import SnackBarComponent from './components/30-SnackBarComponent';
 
 function App() {
   return (
@@ -63,7 +64,8 @@ function App() {
       {/* <ToolTipCOmpoent /> */}
       {/* <TableComponent /> */}
       {/* <AlertComponent /> */}
-      <SnackBarComponent />
+      {/* <SnackBarComponent /> */}
+      <ProgressComponent />
     </div> 
   );
 }
